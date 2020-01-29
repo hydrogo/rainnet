@@ -23,7 +23,7 @@ def rainnet(input_shape=(928, 928, 4), mode="regression"):
     thresholds. For that purpose, use "segmentation" mode.
     """
 
-    inputs = Input(input_size)
+    inputs = Input(input_shape)
 
     conv1f = Conv2D(64, 3, padding='same', kernel_initializer='he_normal')(inputs)
     conv1f = Activation("relu")(conv1f)
