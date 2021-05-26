@@ -1,3 +1,12 @@
+This repo is a fork of the original repo, but including the RainNet_Training.ipynb notebook created by me([Pradyumna Gupta](https://github.com/PradyumnaGupta)) which can be used to train the RainNet model from scratch.The notebook contains the essential description to the code.
+
+Link to the dataset: [Drive](https://drive.google.com/file/d/1sZI4TbFkgJcpkZDBfbuWR_JBZSNhKow4/view?usp=sharing)
+
+Link to the image names in the above dataset: [Drive](https://drive.google.com/file/d/1DvVUyrUvL4P8TRr_y_r5NrOxlRjwgWQr/view?usp=sharing)
+
+The link to the inferene notebook can be found below by the original repository author.
+
+***
 # RainNet: a convolutional neural network for radar-based precipitation nowcasting
 
 <img src="misc/RainNet_logo.png" alt="RainNet logo" width="10%"/>
