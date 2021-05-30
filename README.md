@@ -48,7 +48,7 @@ We optimized RainNet's parameters using 10 epochs with a mini batch of size 2. T
 
 The pretrained weights of the RainNet model are available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3630429.svg)](https://doi.org/10.5281/zenodo.3630429).
 
-To train RainNet from scratch, a [Colab](examples/RainNet_Training.ipynb) notebook has been provided by [Pradyumna Gupta](https://github.com/PradyumnaGupta) in the `examples/` folder.
+To train RainNet from scratch, a [Colab](examples/RainNet_Training.ipynb) notebook has been provided by [Pradyumna Gupta](https://github.com/PradyumnaGupta) in the `examples/` folder.The notebook contains the essential description of the code and the links to the dataset.
 
 ## Radar data
 
