@@ -1,12 +1,3 @@
-This repo is a fork of the original repo, but including the RainNet_Training.ipynb notebook created by me([Pradyumna Gupta](https://github.com/PradyumnaGupta)) which can be used to train the RainNet model from scratch.The notebook contains the essential description to the code.
-
-Link to the dataset: [Drive](https://drive.google.com/file/d/1sZI4TbFkgJcpkZDBfbuWR_JBZSNhKow4/view?usp=sharing)
-
-Link to the image names in the above dataset: [Drive](https://drive.google.com/file/d/1DvVUyrUvL4P8TRr_y_r5NrOxlRjwgWQr/view?usp=sharing)
-
-The link to the inferene notebook can be found below by the original repository author.
-
-***
 # RainNet: a convolutional neural network for radar-based precipitation nowcasting
 
 <img src="misc/RainNet_logo.png" alt="RainNet logo" width="10%"/>
@@ -56,6 +47,8 @@ Finally, we update RainNet's model parameters to minimize the loss function usin
 We optimized RainNet's parameters using 10 epochs with a mini batch of size 2. The optimization procedure has converged on the 8<sup>th</sup> epoch showing saturation of RainNet's performance on the validation data.
 
 The pretrained weights of the RainNet model are available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3630429.svg)](https://doi.org/10.5281/zenodo.3630429).
+
+To train RainNet from scratch, a [Colab](examples/RainNet_Training.ipynb) notebook has been provided by [Pradyumna Gupta](https://github.com/PradyumnaGupta) in the `examples/` folder.
 
 ## Radar data
 
