@@ -48,6 +48,8 @@ We optimized RainNet's parameters using 10 epochs with a mini batch of size 2. T
 
 The pretrained weights of the RainNet model are available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3630429.svg)](https://doi.org/10.5281/zenodo.3630429).
 
+To train RainNet from scratch, a [Colab](examples/RainNet_Training.ipynb) notebook has been provided by [Pradyumna Gupta](https://github.com/PradyumnaGupta) in the `examples/` folder.The notebook contains the essential description of the code and the links to the dataset.
+
 ## Radar data
 
 We use the sample of the [RY product]() of the German Weather Service (DWD) as input data for training and validating the RainNet model. The RY product represents a quality-controlled rainfall-depth composite of 17 operational DWD Doppler radars. It has a spatial extent of 900x900 km, covers the whole area of Germany, and is available since 2006. The spatial and temporal resolution of the RY product is 1x1 km and 5 minutes, respectively.
